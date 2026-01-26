@@ -83,18 +83,31 @@
   </section>
 
   <!-- Coding Experience Section -->
-  <section id="coding-experience">
-    <h2>💻 Coding Experience & Skills</h2>
-    <ul>
-      <li><strong>Languages:</strong> Java, JavaScript, Python, HTML, CSS</li>
-      <li><strong>Hackathon:</strong> Created a calorie-counting food suggestion app (JavaScript, 2024)</li>
-      <li><strong>Mobile App:</strong> Built a multi-functional app using Code.org App Lab</li>
-      <li><strong>Java Game:</strong> Developed a ball avoidance game using object-oriented programming and physics</li>
-      <li><strong>Certificate:</strong> Completed the 2024 Heights Philadelphia Blended Learning Initiative - Computer Science Program at Penn Engineering</li>
-    </ul>
-  </section>
+  <ul id="codingExperiences"></ul>
+  
+  <script>
+  const codingExperiences = [
+    "Languages: Java, JavaScript, Python, HTML, CSS",
+    "Hackathon: Created a calorie-counting food suggestion app (JavaScript, 2024)",
+    "Mobile App: Built a multi-functional app using Code.org App Lab",
+    "Java Game: Developed a ball avoidance game using object-oriented programming and physics",
+    "Certificates: Complated the 2024 Heights Philadelphia Blending Learnign Intiative - Computer Science at Penn Engineering"
+  ];
+
+    const list = document.getElementById("codingExperiences");
+    codingExperiences.forEach(item =>{
+      const li = document.createElement("li");
+      li.textContent = item;
+      list.appendChild(li);
+    });
+    
+  </script>
+  
+
 
   <!-- Wrestling Achievements Section -->
+  <ul id="achievements"></ul>
+
   <script>
   const achievements = [
     "2023 USA Freestyle National Fargo Participant",

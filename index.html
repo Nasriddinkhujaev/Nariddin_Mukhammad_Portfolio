@@ -95,22 +95,24 @@
   </section>
 
   <!-- Wrestling Achievements Section -->
-  <section id="wrestling">
-    <h2>🏆 Wrestling Achievements</h2>
-    <ul>
-      <li>2023 USA Freestyle National Fargo Participant</li>
-      <li>2024 Philadelphia Public League Individual Wrestling Tournament Champion</li>
-      <li>2024 Pennsylvania District 12 Individual Wrestling Tournament Champion</li>
-      <li>2024 District 12 Wrestler of the Year Award</li>
-      <li>2024 Philadelphia Wrestler of the Year Award</li>
-      <li>2025 Temple Outstanding Wrestler Award</li>
-    </ul>
-  
-    <div class="wrestling-gallery hidden">
-        <img src="wrestling1.jpg" alt="Wrestling Match">
-        <img src="wrestling2.jpg" alt="Wrestling Match">
-        <img src="wrestling3.jpg" alt="Wrestling Match">
-    </div>
+  <script>
+  const achievements = [
+    "2023 USA Freestyle National Fargo Participant",
+    "2024 Philadelphia Public League Individual Wrestling Tournament Champion",
+    "2024 Pennsylvania District 12 Individual Wrestling Tournament Champion",
+    "2024 District 12 Wrestler of the Year Award",
+    "2024 Philadelphia Wrestler of the Year Award",
+    "2025 Temple Outstanding Wrestler Award"
+  ];
+
+  const list = document.getElementById("achievements");
+
+  achievements.forEach(item => {
+    const li = document.createElement("li");
+    li.textContent = item;
+    list.appendChild(li);
+  });
+</script>
     
   </section>
   <!-- Contact Section -->

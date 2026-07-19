@@ -176,6 +176,13 @@ video {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.wrestling-gallery img.expanded {
+  transform: scale(1.8); /* Increases size by 80% */
+  position: relative;
+  z-index: 10; /* Ensures it sits on top of other images */
+  cursor: zoom-out;
+}
+
 .hidden {
   opacity: 0;
   transform: translateY(50px);

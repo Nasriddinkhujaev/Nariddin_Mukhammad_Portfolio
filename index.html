@@ -141,3 +141,16 @@
   <script src="script.js"></script>
 </body>
 </html>
+
+<script>
+  document.querySelectorAll('.wrestling-gallery img').forEach(img => {
+    img.addEventListener('click', () => {
+      // Remove expanded class from any other image
+      document.querySelectorAll('.wrestling-gallery img').forEach(otherImg => {
+        if (otherImg !== img) otherImg.classList.remove('expanded');
+      });
+      // Toggle the clicked image
+      img.classList.toggle('expanded');
+    });
+  });
+</script>

@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f5f7fa;
   color: #333;
   line-height: 1.6;
@@ -17,7 +17,7 @@ body {
 header {
   text-align: center;
   padding: 50px 20px 20px;
-  background-color: #4A90E2;
+  background-color: #4a90e2;
   color: white;
 }
 
@@ -68,7 +68,7 @@ section {
 
 h2 {
   margin-bottom: 20px;
-  color: #4A90E2;
+  color: #4a90e2;
 }
 
 /* Project */
@@ -77,7 +77,8 @@ h2 {
   text-align: center;
 }
 
-.project-img, video {
+.project-img,
+video {
   width: 100%;
   max-width: 400px;
   height: auto;
@@ -105,7 +106,7 @@ h2 {
   display: inline-block;
   margin: 5px 10px;
   padding: 10px 20px;
-  background-color: #4A90E2;
+  background-color: #4a90e2;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -114,7 +115,7 @@ h2 {
 }
 
 .button:hover {
-  background-color: #357ABD;
+  background-color: #357abd;
 }
 
 /* Wrestling pic*/
@@ -124,14 +125,13 @@ h2 {
   border-radius: 12px;
   margin: 40px auto;
   max-width: 1000px;
-  text-align: center; 
+  text-align: center;
 }
 
 #wrestling h2 {
   text-align: center;
   font-size: 32px;
   color: #333;
-  margin-bottom: 50px;
 }
 
 #wrestling ul {
@@ -161,7 +161,9 @@ h2 {
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition:
+    transform 0.3s,
+    box-shadow 0.3s;
 }
 
 .wrestling-gallery img:hover {
@@ -187,7 +189,7 @@ h2 {
 }
 
 #contact a {
-  color: #4A90E2;
+  color: #4a90e2;
   font-weight: bold;
 }
 

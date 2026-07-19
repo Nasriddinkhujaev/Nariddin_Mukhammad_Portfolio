@@ -177,7 +177,7 @@ video {
 }
 
 .wrestling-gallery img.expanded {
-  transform: scale(1.8); /* Increases size by 80% */
+  transform: scale(4); /* Increases size by 80% */
   position: relative;
   z-index: 10; /* Ensures it sits on top of other images */
   cursor: zoom-out;
